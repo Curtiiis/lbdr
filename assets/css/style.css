@@ -4516,7 +4516,7 @@
 	padding: 32px 0;
 
 	/* position: relative;
-  background-image: url(/public/img/hero_img_w1000-insp.jpg);
+  background-image: url(../../public/img/hero_img_w1000-insp.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -10069,15 +10069,15 @@
 }
 
 .contact-one__info li .icon.call::before {
-	content: url(/public/components/icons/phone-call.png);
+	content: url(../../public/components/icons/phone-call.png);
 }
 
 .contact-one__info li .icon.location::before {
-	content: url(/public/components/icons/location.png);
+	content: url(../../public/components/icons/location.png);
 }
 
 .contact-one__info li .icon.mail::before {
-	content: url(/public/components/icons/mail.png);
+	content: url(../../public/components/icons/mail.png);
 }
 
 .contact-one__info p {
@@ -13398,7 +13398,7 @@ background-color: hsl(85, 57%, 40%);
 	/* margin: 0 auto; */
 
 	position: relative;
-	background-image: url(/public/img/hero_img_w1000-insp.jpg);
+	background-image: url(../../public/img/hero_img_w1000-insp.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;

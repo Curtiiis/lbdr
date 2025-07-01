@@ -52,7 +52,7 @@ url("../fonts/flaticon.svg") format("svg");
 }
 .flaticon-earth-globe-with-continents-maps:before {
     /* content: "\f10d"; */
-    content: url(/public/components/icons/call-green.svg);
+    content: url(./public/components/icons/call-green.svg);
 }
 .flaticon-graduate-cap:before {
     content: "\f10e";
