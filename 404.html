@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js no-svg">
+
+<head>
+
+  <!-- TITLE -->
+  <title>Oups</title>
+
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="/public/components/logos/favi.ico" type="image/x-icon">
+  <link rel="icon" href="/public/components/logos/favi.ico" type="image/x-icon">
+  <!-- responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- For IE -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name='robots' content='max-image-preview:large' />
+
+  <script type="text/javascript">
+
+     // Display navbar
+     window.addEventListener('scroll', () => {
+        const navbar = document.querySelector('#sticky-header');
+        const logoImg1 = document.querySelector('.main-logo-1');
+        const logoImg2 = document.querySelector('.main-logo-2');
+
+        const isScrolled = window.scrollY > 10;
+
+        navbar.classList.toggle('scrolled', isScrolled);
+        logoImg1.classList.toggle('active', !isScrolled);
+        logoImg2.classList.toggle('active', isScrolled);
+
+        // Display Contact Button
+        const ctaButton = document.querySelector('.btn-style-seven.style-2');
+        (window.scrollY > 800) ? ctaButton.classList.add('active') : ctaButton.classList.remove('active');
+     });
+
+  </script>
+
+  <!-- CDN CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+     href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap"
+     rel="stylesheet">
+
+  <!-- LOCAL CSS -->
+  <link rel='stylesheet' href='./assets/css/styles.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='./assets/css/bootstrap.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='./assets/css/global.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='./assets/css/header.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='./assets/css/footer.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='./assets/css/font-awesome.min.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='./assets/css/animate.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='./assets/css/owl.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='./assets/css/style2.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='./assets/css/style.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='./assets/css/custom.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='./assets/css/responsive.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='./assets/css/frontend.min.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='./assets/css/swiper.min.css' type='text/css' media='all' />
+  <link rel='stylesheet' href='./assets/css/custom-animate.css' type='text/css' media='all' />
+
+  <script type="text/javascript" src="./js/jquery-2.2.4.min.js" id="jquery-js" defer></script>
+  <script type="text/javascript" src="./js/jquery.mCustomScrollbar.concat.min.js" defer></script>
+  <script type="text/javascript" src="./js/owl.js" id="owl-js" defer></script>
+  <script type="text/javascript" src="./js/wow.js" id="wow-js" defer></script>
+  <script type="text/javascript" src="./js/script-a.js" defer></script>
+
+  <link rel="canonical" href="/" />
+  <link rel='shortlink' href='/' />
+
+</head>
+
+<body>
+
+  <div class="page-wrapper ">
+
+    <!-- PHONE, CTA AND ARROW ICONS -->
+    <!-- Call -->
+    <a class="phone-link" href="tel:+33666666666">
+      <i class="icon-green call-green bottom" aria-hidden="true"></i>
+    </a>
+
+    <!-- PRELOADER -->
+    <div class="preloader"></div>
+
+    <!-- MENU -->
+    <header class="main-header header-style-two">
+      <div class="header-lower none">
+        <div class="auto-container">
+          <div class="inner-container clearfix">
+
+            <!-- Nav Outer -->
+            <div class="nav-outer clearfix">
+              <!-- Mobile Navigation Toggler -->
+              <div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
+              <!-- Main Menu -->
+              <nav class="main-menu navbar-expand-md">
+                <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+                  <ul class="navigation clearfix">
+                    <li><a href="/lassociation.html">Notre mission</a></li>
+                    <li class="dropdown">
+                      <a href="/services.html">Nos services</a>
+                      <ul role="menu" class="submenu">
+                        <li><a href="/sejour.html">Séjour de mise au vert</a></li>
+                        <li><a href="/accompagnement.html">Accompagnement personnalisé</a></li>
+                        <li><a href="/relais.html">Relais éducatif</a></li>
+                        <li><a href="/transport.html">Transport spécialisé</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="/contact.html">Nous contacter</a></li>
+                  </ul>
+                </div>
+              </nav>
+
+              <!-- Main Menu End-->
+              <div class="outer-box clearfix"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sticky Header  -->
+      <div class="sticky-header" id="sticky-header">
+        <div class="auto-container clearfix">
+          <!-- Logo -->
+          <div class="logo pull-left">
+            <a href="/" title="Le Bol d'R">
+              <!-- <img src="/assets/images/logo-boldr-revue-4-big-text-ssbg-wb.png" alt="logo" />
+							<img src="/assets/images/logo-web-transparent-h.png" alt="logo" />
+							<img src="/public/components/logos/logo-w250.png" alt="logo" />
+							<img src="/public/components/logos/logo-w250-2.png" alt="logo" /> -->
+              <img class="main-logo main-logo-1 active" src="/public/components/logos/logo-w250-3.png" alt="logo" />
+              <img class="main-logo main-logo-2" src="/public/components/logos/logo-w250-color.png" alt="logo" />
+            </a>
+          </div>
+          <!--Right Col-->
+          <div class="pull-right">
+
+            <!-- Main Menu -->
+            <nav class="main-menu"></nav>
+
+            <!-- Mobile Navigation Toggler -->
+            <div class="mobile-nav-toggler">
+              <img src="./public/components/icons/menu-3.png" alt="menu button" class="menu-btn">
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Menu  -->
+      <div class="mobile-menu">
+        <div class="menu-backdrop"></div>
+        <div class="close-btn">
+          <img src="./public/components/icons/cross.png" alt="menu-cross button" class="menu-btn-cross">
+        </div>
+
+        <nav class="menu-box">
+          <div class="nav-logo">
+            <a href="/" title="Le Bol d'R">
+              <img src="/public/components/logos/logo-w250-3.png" alt="logo" />
+            </a>
+          </div>
+          <div class="menu-outer"></div>
+        </nav>
+      </div>
+
+    </header>
+
+    <!-- BANNER -->
+    <section class="page-title full-height"
+      style="background-image: url('./assets/images/oups-1.jpg'); background-position: center;">
+      <div class="auto-container">
+        <h1>Page introuvable</h1>
+        <ul class="bread-crumb clearfix">
+          <li class="breadcrumb-item"><a href="/">Accueil</a></li>
+          <li class="breadcrumb-item">Page introuvable</li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+  <!--End Page Wrapper-->
+
+</body>
+
+</html>

@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="fr" class="no-js no-svg">
+
+<head>
+
+	<!-- TITLE -->
+	<title>Transport spécialisé</title>
+
+	<meta charset="UTF-8">
+	<link rel="shortcut icon" href="/public/components/logos/favi.ico" type="image/x-icon">
+	<link rel="icon" href="/public/components/logos/favi.ico" type="image/x-icon">
+	<!-- responsive meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- For IE -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name='robots' content='max-image-preview:large' />
+
+	<script type="text/javascript">
+
+		// Display navbar
+		window.addEventListener('scroll', () => {
+			const navbar = document.querySelector('#sticky-header');
+			const logoImg1 = document.querySelector('.main-logo-1');
+			const logoImg2 = document.querySelector('.main-logo-2');
+
+			const isScrolled = window.scrollY > 10;
+
+			navbar.classList.toggle('scrolled', isScrolled);
+			logoImg1.classList.toggle('active', !isScrolled);
+			logoImg2.classList.toggle('active', isScrolled);
+
+			// Display Contact Button
+			const ctaButton = document.querySelector('.btn-style-seven.style-2');
+			(window.scrollY > 800) ? ctaButton.classList.add('active') : ctaButton.classList.remove('active');
+		});
+
+	</script>
+
+	<!-- CDN CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap"
+		rel="stylesheet">
+
+	<!-- LOCAL CSS -->
+	<link rel='stylesheet' href='./assets/css/styles.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='./assets/css/bootstrap.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='./assets/css/global.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='./assets/css/header.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='./assets/css/footer.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='./assets/css/font-awesome.min.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='./assets/css/animate.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='./assets/css/owl.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='./assets/css/style2.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='./assets/css/style.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='./assets/css/custom.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='./assets/css/responsive.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='./assets/css/frontend.min.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='./assets/css/swiper.min.css' type='text/css' media='all' />
+	<link rel='stylesheet' href='./assets/css/custom-animate.css' type='text/css' media='all' />
+
+	<script type="text/javascript" src="./js/jquery-2.2.4.min.js" id="jquery-js" defer></script>
+	<script type="text/javascript" src="./js/jquery.mCustomScrollbar.concat.min.js" defer></script>
+	<script type="text/javascript" src="./js/owl.js" id="owl-js" defer></script>
+	<script type="text/javascript" src="./js/wow.js" id="wow-js" defer></script>
+	<script type="text/javascript" src="./js/script-a.js" defer></script>
+
+	<link rel="canonical" href="/" />
+	<link rel='shortlink' href='/' />
+
+</head>
+
+<body>
+
+	<div class="page-wrapper ">
+
+		<!-- PHONE, CTA AND ARROW ICONS -->
+		<!-- Call -->
+		<a class="phone-link" href="tel:+33666666666"><i class="icon-green call-green bottom" aria-hidden="true"></i></a>
+		<!-- Button -->
+		<div class="cta-btn-container col-xl-12 col-lg-12">
+			<div class="button-box">
+				<a href="/contact.html" class="theme-btn btn-style-seven style-2"><span class="txt">Demander un
+						accompagnement</span></a>
+			</div>
+		</div>
+		<!-- Scroll To Top -->
+		<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>
+
+		<!-- PRELOADER -->
+		<div class="preloader"></div>
+
+		<!-- MENU -->
+		<header class="main-header header-style-two">
+			<div class="header-lower none">
+				<div class="auto-container">
+					<div class="inner-container clearfix">
+
+						<!-- Nav Outer -->
+						<div class="nav-outer clearfix">
+							<!-- Mobile Navigation Toggler -->
+							<div class="mobile-nav-toggler"><span class="icon flaticon-menu"></span></div>
+							<!-- Main Menu -->
+							<nav class="main-menu navbar-expand-md">
+								<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+									<ul class="navigation clearfix">
+										<li><a href="/lassociation.html">Notre mission</a></li>
+										<li class="dropdown">
+											<a href="/services.html">Nos services</a>
+											<ul role="menu" class="submenu">
+												<li><a href="/sejour.html">Séjour de mise au vert</a></li>
+												<li><a href="/accompagnement.html">Accompagnement personnalisé</a></li>
+												<li><a href="/relais.html">Relais éducatif</a></li>
+												<li><a href="/transport.html">Transport spécialisé</a></li>
+											</ul>
+										</li>
+										<li><a href="/contact.html">Nous contacter</a></li>
+									</ul>
+								</div>
+							</nav>
+
+							<!-- Main Menu End-->
+							<div class="outer-box clearfix"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Sticky Header  -->
+			<div class="sticky-header" id="sticky-header">
+				<div class="auto-container clearfix">
+					<!-- Logo -->
+					<div class="logo pull-left">
+						<a href="/" title="Le Bol d'R">
+							<!-- <img src="/assets/images/logo-boldr-revue-4-big-text-ssbg-wb.png" alt="logo" />
+							<img src="/assets/images/logo-web-transparent-h.png" alt="logo" />
+							<img src="/public/components/logos/logo-w250.png" alt="logo" />
+							<img src="/public/components/logos/logo-w250-2.png" alt="logo" /> -->
+							<img class="main-logo main-logo-1 active" src="/public/components/logos/logo-w250-3.png"
+								alt="logo" />
+							<img class="main-logo main-logo-2" src="/public/components/logos/logo-w250-color.png" alt="logo" />
+						</a>
+					</div>
+					<!--Right Col-->
+					<div class="pull-right">
+
+						<!-- Main Menu -->
+						<nav class="main-menu"></nav>
+
+						<!-- Mobile Navigation Toggler -->
+						<div class="mobile-nav-toggler">
+							<img src="./public/components/icons/menu-3.png" alt="menu button" class="menu-btn">
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<!-- Mobile Menu  -->
+			<div class="mobile-menu">
+				<div class="menu-backdrop"></div>
+				<div class="close-btn">
+					<img src="./public/components/icons/cross.png" alt="menu-cross button" class="menu-btn-cross">
+				</div>
+
+				<nav class="menu-box">
+					<div class="nav-logo">
+						<a href="/" title="Le Bol d'R">
+							<img src="/public/components/logos/logo-w250-3.png" alt="logo" />
+						</a>
+					</div>
+					<div class="menu-outer"></div>
+				</nav>
+			</div>
+
+		</header>
+
+		<!-- BANNER -->
+		<section class="page-title"
+			style="background-image: url('./assets/images/drive-1nb.png'); background-position: center;">
+			<div class="auto-container">
+				<h1>Transport spécialisé</h1>
+				<ul class="bread-crumb clearfix">
+					<li class="breadcrumb-item"><a href="/">Accueil</a></li>
+					<li class="breadcrumb-item">Transport</li>
+				</ul>
+			</div>
+		</section>
+
+		<!-- MAIN CONTENT -->
+		<div data-elementor-type="wp-page" data-elementor-id="12" class="elementor elementor-12">
+
+			<!-- POUR QUI ? -->
+			<section class="about-section-three first-section mw1400 m0a">
+				<div class="image-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<div class="image">
+							<img class="full" decoding="async" src="./assets/images/drive-2.jpg" alt="transport" />
+						</div>
+					</div>
+				</div>
+				<div class="auto-container">
+					<div class="row clearfix">
+						<div class="content-column col-lg-12 col-md-12 col-sm-12 pl">
+							<div class="inner-column">
+								<div class="sec-title">
+									<div class="title">POUR QUI ?</div>
+								</div>
+								<h3 class="mt">Un transport adapté aux besoins spécifiques</h3>
+								<div class="text">
+									Le service de transport spécialisé s'adresse aux enfants et adolescents nécessitant un
+									accompagnement sécurisé et individualisé dans leurs déplacements du quotidien.
+								</div>
+								<h3 class="mt">Ce service concerne :</h3>
+								<ul class="text">
+									<li class="text list-item">
+										<span class="icon-text"><img src="./public/components/icons/check.png"
+												alt="check-box"></span>
+										<span>Les jeunes accompagnés par un établissement ou un service médico-social</span>
+									</li>
+									<li class="text list-item">
+										<span class="icon-text"><img src="./public/components/icons/check.png"
+												alt="check-box"></span>
+										<span>Les enfants en situation de handicap ou de fragilité</span>
+									</li>
+									<li class="text list-item">
+										<span class="icon-text"><img src="./public/components/icons/check.png"
+												alt="check-box"></span>
+										<span>Les familles recherchant une solution de transport bienveillante et sécurisée</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- OBJECTIFS ET MODALITÉS -->
+			<section class="about-section-three third-section full">
+				<div class="auto-container mw1400 m0a">
+					<div class="row clearfix">
+						<div class="content-column col-lg-12 col-md-12 col-sm-12 pl">
+							<div class="inner-column">
+								<div class="sec-title">
+									<div class="title">OBJECTIFS ET MODALITÉS</div>
+								</div>
+								<h3 class="mt">Objectifs</h3>
+								<ul class="text">
+									<li class="text list-item">
+										<span class="icon-text"><img src="./public/components/icons/check.png"
+												alt="check-box"></span>
+										<span>Garantir un cadre sécurisé et rassurant pour chaque trajet</span>
+									</li>
+									<li class="text list-item">
+										<span class="icon-text"><img src="./public/components/icons/check.png"
+												alt="check-box"></span>
+										<span>Maintenir une régularité dans les déplacements éducatifs, scolaires ou
+											médicaux</span>
+									</li>
+									<li class="text list-item">
+										<span class="icon-text"><img src="./public/components/icons/check.png"
+												alt="check-box"></span>
+										<span>Offrir un lien cohérent entre l'accompagnement éducatif et les trajets</span>
+									</li>
+								</ul>
+								<h4 class="list-item-title">Encadrement</h4>
+								<p class="text list-item">Trajets assurés par un chauffeur professionnel agréé, en lien avec les
+									éducateurs référents.</p>
+
+								<h4 class="list-item-title">Fréquence</h4>
+								<p class="text list-item">Déplacements réguliers ou ponctuels, selon les besoins identifiés.</p>
+
+								<h4 class="list-item-title">Territoire</h4>
+								<p class="text list-item">Couverture régionale, avec possibilité d'extension après étude.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- FINANCEMENT -->
+			<section class="about-section-three first-section mw1400 m0a">
+				<div class="auto-container">
+					<div class="row clearfix">
+						<div class="content-column col-lg-12 col-md-12 col-sm-12 pl">
+							<div class="inner-column">
+								<div class="sec-title">
+									<div class="title">FINANCEMENT</div>
+								</div>
+								<div class="text">
+									Service proposé sur devis ou convention, incluant la coordination, le transport et
+									l'accompagnement si besoin.
+								</div>
+								<ul class="text">
+									<li class="text list-item">
+										<span class="icon-text"><img src="./public/components/icons/check.png"
+												alt="check-box"></span>
+										<span><strong>Forfait par trajet ou à la journée :</strong> selon le volume et la
+											fréquence</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="image-column col-lg-6 col-md-12 col-sm-12">
+					<div class="inner-column">
+						<div class="image">
+							<img class="full" decoding="async" src="./assets/images/drive-4.jpg" alt="transport" />
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- NOS SERVICES -->
+			<section class="about-section-four">
+				<div class="auto-container">
+					<div class="row clearfix">
+
+						<!-- Content Column -->
+						<div class="content-column col-lg-12 col-md-12 col-sm-12">
+							<div class="inner-column">
+								<div class="sec-title">
+									<div class="title">NOS SERVICES</div>
+								</div>
+								<h3 class="color-wh">Des solutions, une même exigence</h3>
+							</div>
+						</div>
+
+						<div class="cards-container">
+
+							<!-- Séjour de mise au vert -->
+							<div class="feature-block col-lg-3 col-md-6 col-sm-12">
+								<a class="inner-box wow fadeInLeft" href="/sejour.html" data-wow-delay="0ms"
+									data-wow-duration="1500ms">
+									<div class="icon-box">
+										<span class="icon"><img decoding="async" width="1" height="1"
+												src="./assets/images/service-3.png" /></span>
+									</div>
+									<h3>Séjour de mise au vert</h3>
+									<div class="text">
+										Un temps à part, pour souffler, se reconstruire et renouer avec un cadre
+										sécurisant et structurant.
+									</div>
+								</a>
+							</div>
+
+							<!-- Accompagnement personnalisé -->
+							<div class="feature-block col-lg-3 col-md-6 col-sm-12">
+								<a class="inner-box wow fadeInLeft" href="/accompagnement.html" data-wow-delay="0ms"
+									data-wow-duration="1500ms">
+									<div class="icon-box">
+										<span class="icon"><img decoding="async" width="1" height="1"
+												src="./assets/images/bus.png" /></span>
+									</div>
+									<h3>Accompagnement personnalisé</h3>
+									<div class="text">
+										Des trajets accompagnés pour renforcer la confiance et encourager
+										l'autonomie au quotidien.
+									</div>
+								</a>
+							</div>
+
+							<!-- Relais éducatif -->
+							<div class="feature-block col-lg-3 col-md-6 col-sm-12">
+								<a class="inner-box wow fadeInLeft" href="/relais.html" data-wow-delay="0ms"
+									data-wow-duration="1500ms">
+									<div class="icon-box">
+										<span class="icon"><img decoding="async" width="1" height="1"
+												src="./assets/images/service-4.png" /></span>
+									</div>
+									<h3>Relais éducatif</h3>
+									<div class="text">
+										Un relais temporaire pour soulager les équipes et assurer la continuité
+										éducative sans rupture.
+									</div>
+								</a>
+							</div>
+
+							<!-- Transport spécialisé -->
+							<div class="feature-block col-lg-3 col-md-6 col-sm-12">
+								<a class="inner-box wow fadeInLeft" href="/transport.html" data-wow-delay="0ms"
+									data-wow-duration="1500ms">
+									<div class="icon-box">
+										<span class="icon"><img decoding="async" width="1" height="1"
+												src="./assets/images/service-1.png" /></span>
+									</div>
+
+									<h3>Transport spécialisé</h3>
+									<div class="text">
+										Un service sur mesure pour assurer chaque déplacement avec attention et
+										sérénité.
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- TEMOIGNAGES -->
+			<section class="testimonial-section-three" style="background-image:url('./assets/images/2.jpg')">
+				<div class="auto-container">
+					<div class="row clearfix">
+
+						<!-- Title Column -->
+						<div class="title-column col-lg-4 col-md-12 col-sm-12">
+							<div class="inner-column">
+								<div class="sec-title">
+									<div class="title">Témoignages</div>
+									<h2>Ce qu'ils disent de nous</h2>
+								</div>
+								<div class="text">Des enfants, des parents, des pros...
+									Tous témoignent de l'impact humain de nos séjours.</div>
+								<!-- Button Box -->
+								<!-- <div class="button-box">
+															<a href="#" class="theme-btn btn-style-one"><span class="txt">All
+																	Testimonials</span></a>
+														</div> -->
+								<!-- End Button Box -->
+							</div>
+						</div>
+
+						<!-- Carousel Column -->
+						<div class="carousel-column col-lg-8 col-md-12 col-sm-12">
+							<div class="inner-column">
+								<div class="two-item-carousel owl-carousel owl-theme">
+									<!-- Testimonial Block -->
+									<div class="testimonial-block">
+										<div class="inner-box">
+											<div class="text">Je n'avais jamais vu mon fils aussi calme après un
+												séjour. Merci pour votre humanité et votre encadrement.
+											</div>
+											<div class="author-box">
+												<div class="box-inner">
+													<div class="author-image">
+														<img loading="lazy" decoding="async" width="81" height="81"
+															src="./assets/images/test-1.jpg"
+															class="attachment-aelpa_81x81 size-aelpa_81x81 wp-post-image" alt="" />
+													</div>
+													<h5>Laurent B.</h5>
+													<div class="designation">Père d'un adolescent accueilli</div>
+												</div>
+											</div>
+											<i class="fa-solid fa-quote-left"></i>
+										</div>
+									</div>
+
+									<!-- Testimonial Block -->
+									<div class="testimonial-block">
+										<div class="inner-box">
+											<div class="text">Le Bol D'R a permis à l'un de nos jeunes de
+												retrouver confiance en lui. Il est revenu apaisé, avec un vrai
+												déclic.</div>
+											<div class="author-box">
+												<div class="box-inner">
+													<div class="author-image">
+														<img loading="lazy" decoding="async" width="81" height="81"
+															src="./assets/images/testi-2.jpg"
+															class="attachment-aelpa_81x81 size-aelpa_81x81 wp-post-image" alt="" />
+													</div>
+													<h5>Marie D.</h5>
+													<div class="designation">Éducatrice en ITEP</div>
+												</div>
+											</div>
+											<i class="fa-solid fa-quote-left"></i>
+										</div>
+									</div>
+									<!-- Testimonial Block -->
+									<div class="testimonial-block">
+										<div class="inner-box">
+											<div class="text">Ici, on m'écoute sans me juger. J'ai appris à me
+												poser, à respirer, et à mieux parler quand je ne vais pas bien.
+											</div>
+											<div class="author-box">
+												<div class="box-inner">
+													<div class="author-image">
+														<img loading="lazy" decoding="async" width="81" height="81"
+															src="./assets/images/testi-3.jpg"
+															class="attachment-aelpa_81x81 size-aelpa_81x81 wp-post-image" alt="" />
+													</div>
+													<h5>Emma (13 ans)</h5>
+													<div class="designation">Bénéficiaire d'un séjour</div>
+												</div>
+											</div>
+											<i class="fa-solid fa-quote-left"></i>
+										</div>
+									</div>
+									<!-- Testimonial Block -->
+									<div class="testimonial-block">
+										<div class="inner-box">
+											<div class="text">Faire partie de l'équipe m'a profondément marquée.
+												L'ambiance est saine, l'encadrement pro, et les séjours utiles.
+											</div>
+											<div class="author-box">
+												<div class="box-inner">
+													<div class="author-image">
+														<img loading="lazy" decoding="async" width="81" height="81"
+															src="./assets/images/testi-4.jpg"
+															class="attachment-aelpa_81x81 size-aelpa_81x81 wp-post-image" alt="" />
+													</div>
+													<h5>Sophie M</h5>
+													<div class="designation">Animatrice BAFA</div>
+												</div>
+											</div>
+											<i class="fa-solid fa-quote-left"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- JOIN US -->
+			<section class="cta-section-three" style="background-image:url('./assets/images/team-5.jpg')">
+				<div class="auto-container">
+					<div class="row clearfix">
+						<!-- Title Column -->
+						<div class="title-column col-lg-7 col-md-12 col-sm-12">
+							<div class="inner-column">
+								<h2 class="style-1">Vous êtes diplômés du secteur médico-social ?</h2>
+								<h2 class="style-1">Vous souhaitez mettre vos compétences au service d'une
+									mission humaine
+									exigeante et bienveillante ?</h2>
+							</div>
+						</div>
+						<!-- Content Column -->
+						<div class="content-column col-lg-5 col-md-12 col-sm-12">
+							<div class="inner-column">
+								<!-- <div class="text">Care and support for every young person facing cancer.</div> -->
+								<!-- Button Box -->
+								<div class="button-box">
+									<!-- <a href="https://themazine.com/newwp/aelpa/contact/" class="theme-btn btn-style-seven"><span class="txt">Rejoignez-nous</span></a> -->
+									<a href="/contact.html" class="theme-btn btn-style-seven"><span
+											class="txt">Rejoignez-nous</span></a>
+								</div>
+								<!-- End Button Box -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<div class="clearfix"></div>
+
+		<!-- FOOTER -->
+		<section class="section footer" aria-labelledby="footer-heading">
+			<div class="section-inner">
+				<div class="footer-top">
+					<div class="footer-company">
+						<div class="footer-logo"></div>
+						<p class="footer-description">
+							Le Bol D'R est une association loi 1901 labellisée ESS - Entreprise Sociale et Solidaire - engagée
+							aux côtés des enfants en difficulté et des équipes
+							éducatives.
+							Nous proposons des séjours éducatifs sur-mesure pour offrir un temps de répit structurant aux
+							jeunes, tout en soutenant les établissements dans leur mission d'accompagnement.
+						</p>
+					</div>
+					<div class="footer-menu footer-contact">
+						<h2 class="footer-menu-title" id="footer-contact">Nous contacter</h2>
+						<div class="footer-menu-inner">
+							<div class="footer-contact-item">
+								<i class="icon-green call-green" aria-hidden="true"></i>
+								<div>
+									<p>Téléphone</p>
+									<a class="call" href="tel:0666666666">06 66 66 66 66</a>
+								</div>
+							</div>
+							<div class="footer-contact-item">
+								<i class="icon-green mail-green" aria-hidden="true"></i>
+								<div>
+									<p>E-mail</p>
+									<a class="mail" href="mailto:contact@inspedia.fr">contact@leboldr.fr</a>
+								</div>
+							</div>
+							<div class="footer-contact-item">
+								<i class="icon-green maps-green" aria-hidden="true"></i>
+								<div>
+									<p>Adresse</p>
+									<a class="maps"
+										href="https://www.google.com/maps/place/26+Rue+de+la+Lib%C3%A9ration+26c,+91150+Morigny-Champigny">26
+										Rue de la Libération 26c<br>91150 Morigny-Champigny</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer-menus">
+						<div class="footer-infos-services">
+							<div class="footer-menu footer-infos">
+								<h2 id="footer-title-infos" class="footer-menu-title">Informations</h2>
+								<ul class="footer-menu-content" aria-labelledby="footer-title-infos">
+									<li><a href="/mentions-legales.html">Mentions légales</a></li>
+									<li><a href="/cgv.html">Conditions générales de vente</a></li>
+									<li><a href="/politique-de-confidentialite.html">Politique de confidentialité</a></li>
+									<li><a href="/faq.html">FAQ</a></li>
+								</ul>
+							</div>
+							<div class="footer-menu footer-services">
+								<h2 id="footer-title-services" class="footer-menu-title">Nos services</h2>
+								<ul class="footer-menu-content" aria-labelledby="footer-title-services">
+									<li><a href="/sejour.html">Séjour de mise au vert</a></li>
+									<li><a href="/accompagnement.html">Accompagnement personnalisé</a></li>
+									<li><a href="/relais.html">Relais éducatif</a></li>
+									<li><a href="/transport.html">Transport spécialisé</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="footer-menu footer-certif">
+							<h2 class="footer-menu-title">Certification &amp; Assurance</h2>
+							<div class="footer-menu-logos">
+								<div class="footer-menu-logos-2"></div>
+								<div class="footer-menu-logos-1"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<p>© LE BOL D'R - Tous droits réservés</p>
+					<p>Réalisation par Curtis STRAZEL</p>
+				</div>
+			</div>
+		</section>
+
+	</div>
+	<!--End Page Wrapper-->
+
+</body>
+
+</html>
