@@ -1,7 +1,7 @@
 // ARTICLES
 const waitingFrame = '\n  <div class="overlay">\n    <div class="overlay-inner">\n      <div class="lds-ripple">\n        <div></div>\n        <div></div>\n      </div>\n    </div>\n  </div>\n'
-  , successFrame = '\n  <div class="success-message">\n    <img src="./public/components/logos/logo-web-transparent-comp.png" alt="logo inspedia">\n    <h1>MERCI !</h1>\n    <h2>Votre demande a bien été envoyée</h2>\n    <a href="/" class="go-home-btn">Retourner à l\'accueil</a>\n  </div>\n  '
-  , errorFrame = '\n  <div class="success-message">\n    <img src="./public/components/logos/logo-web-transparent-comp.png" alt="logo inspedia">\n    <h1>OUPS !</h1>\n    <h2>Une erreur s\'est produite</h2>\n    <a href="/contact.html" class="go-home-btn">Recommencer</a>\n  </div>\n  ';
+  , successFrame = '\n  <div class="success-message">\n    <img src="./public/components/logos/logo-web-transparent-comp.png" alt="logo inspedia">\n    <h1>MERCI !</h1>\n    <h2>Votre demande a bien été envoyée</h2>\n    <a href="./" class="go-home-btn">Retourner à l\'accueil</a>\n  </div>\n  '
+  , errorFrame = '\n  <div class="success-message">\n    <img src="./public/components/logos/logo-web-transparent-comp.png" alt="logo inspedia">\n    <h1>OUPS !</h1>\n    <h2>Une erreur s\'est produite</h2>\n    <a href="./contact.html" class="go-home-btn">Recommencer</a>\n  </div>\n  ';
 
 
 // RUN SCRIPT

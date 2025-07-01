@@ -28,13 +28,13 @@ let liButton = (item) => {
   </button>`
 };
 let liLink = (item) => `
-  <a href="/${item.link}.html">
+  <a href="./${item.link}.html">
     <span><i class="icon-ctnr ${item.icon}"></i>${item.text}</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
   `;
 let liLink2 = (item) => `
-  <a href="/${item.link}.html">
+  <a href="./${item.link}.html">
     <span><i>${item.icon}</i>${item.text}</span>
   </a>
     `;
@@ -65,13 +65,13 @@ const navMobileContent = `
     <i class="icon-ctnr arrow_right"></i>
   </button></li>
 <li class="link home_repair">
-  <a href="/diagnostics/audit-energetique.html">
+  <a href="./diagnostics/audit-energetique.html">
     <span><i class="icon-ctnr home_repair"></i>Audit Énergétique</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
   </li>
 <li class="link faq">
-  <a href="/faq.html">
+  <a href="./faq.html">
     <span><i class="icon-ctnr faq"></i>Foire aux questions</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
@@ -82,7 +82,7 @@ const navMobileContent = `
   </a>
 </li>
 <li class="button cta_get">
-    <a href="/obtenir-mon-devis.html" class="cta-button get-devis">
+    <a href="./obtenir-mon-devis.html" class="cta-button get-devis">
       <span>Obtenir mon devis</span>
     </a>
 </li>
@@ -107,13 +107,13 @@ const menuBaseList = `
     <i class="icon-ctnr arrow_right"></i>
   </button></li>
 <li class="link home_repair">
-  <a href="/diagnostics/audit-energetique.html">
+  <a href="./diagnostics/audit-energetique.html">
     <span><i class="icon-ctnr home_repair"></i>Audit Énergétique</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
   </li>
 <li class="link faq">
-  <a href="/faq.html">
+  <a href="./faq.html">
     <span><i class="icon-ctnr faq"></i>Foire aux questions</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
@@ -124,7 +124,7 @@ const menuBaseList = `
   </a>
 </li>
 <li class="button cta_get">
-    <a href="/obtenir-mon-devis.html" class="cta-button get-devis">
+    <a href="./obtenir-mon-devis.html" class="cta-button get-devis">
       <span>Obtenir mon devis</span>
     </a>
 </li>
@@ -136,67 +136,67 @@ const menuBaseList = `
 `;
 const sellList = `
 <li class="link warningSell">
-  <a href="/diagnostics/obligations-vente.html">
+  <a href="./diagnostics/obligations-vente.html">
     <span><i class="icon-ctnr warningSell"></i>Obligations vente</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
   </li>
 <li class="link amiante">
-  <a href="/diagnostics/amiante.html">
+  <a href="./diagnostics/amiante.html">
     <span><i class="icon-ctnr amiante"></i>Amiante</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
   </li>
 <li class="link sparkles">
-  <a href="/diagnostics/assainissement.html">
+  <a href="./diagnostics/assainissement.html">
     <span><i class="icon-ctnr sparkles"></i>Assainissement</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
   </li>
 <li class="link sun">
-  <a href="/diagnostics/dpe.html">
+  <a href="./diagnostics/dpe.html">
     <span><i class="icon-ctnr sun"></i>DPE</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
   </li>
 <li class="link lightning">
-  <a href="/diagnostics/electricite.html">
+  <a href="./diagnostics/electricite.html">
     <span><i class="icon-ctnr lightning"></i>Électricité</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
   </li>
 <li class="link plane">
-  <a href="/diagnostics/ensa.html">
+  <a href="./diagnostics/ensa.html">
     <span><i class="icon-ctnr plane"></i>ENSA / Bruit</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
   </li>
 <li class="link seedling">
-  <a href="/diagnostics/erp.html">
+  <a href="./diagnostics/erp.html">
     <span><i class="icon-ctnr seedling"></i>ERP : Risques et Pollution</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
   </li>
 <li class="link fire">
-  <a href="/diagnostics/gaz.html">
+  <a href="./diagnostics/gaz.html">
     <span><i class="icon-ctnr fire"></i>Gaz</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
   </li>
 <li class="link ruler_1">
-  <a href="/diagnostics/mesurage-loi-carrez.html">
+  <a href="./diagnostics/mesurage-loi-carrez.html">
     <span><i class="icon-ctnr ruler_1"></i>Mesurage loi Carrez</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
   </li>
 <li class="link drop">
-  <a href="/diagnostics/plomb.html">
+  <a href="./diagnostics/plomb.html">
     <span><i class="icon-ctnr drop"></i>Plomb</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
   </li>
 <li class="link termite">
-  <a href="/diagnostics/termites.html">
+  <a href="./diagnostics/termites.html">
     <span><i class="icon-ctnr termite"></i>Termites</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
@@ -204,61 +204,61 @@ const sellList = `
 `;
 const rentList = `
 <li class="link warningRent">
-  <a href="/diagnostics/obligations-location.html">
+  <a href="./diagnostics/obligations-location.html">
     <span><i class="icon-ctnr warningRent"></i>Obligations location</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
   </li>
 <li class="link amiante">
-  <a href="/diagnostics/amiante.html">
+  <a href="./diagnostics/amiante.html">
     <span><i class="icon-ctnr amiante"></i>Amiante</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
   </li>
 <li class="link sun">
-  <a href="/diagnostics/dpe.html">
+  <a href="./diagnostics/dpe.html">
     <span><i class="icon-ctnr sun"></i>DPE</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
   </li>
 <li class="link lightning">
-  <a href="/diagnostics/electricite.html">
+  <a href="./diagnostics/electricite.html">
     <span><i class="icon-ctnr lightning"></i>Électricité</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
   </li>
 <li class="link plane">
-  <a href="/diagnostics/ensa.html">
+  <a href="./diagnostics/ensa.html">
     <span><i class="icon-ctnr plane"></i>ENSA / Bruit</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
   </li>
 <li class="link seedling">
-  <a href="/diagnostics/erp.html">
+  <a href="./diagnostics/erp.html">
     <span><i class="icon-ctnr seedling"></i>ERP : Risques et Pollution</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
   </li>
 <li class="link laptop_house">
-  <a href="/diagnostics/etat-des-lieux.html">
+  <a href="./diagnostics/etat-des-lieux.html">
     <span><i class="icon-ctnr laptop_house"></i>État des lieux</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
   </li>
 <li class="link fire">
-  <a href="/diagnostics/gaz.html">
+  <a href="./diagnostics/gaz.html">
     <span><i class="icon-ctnr fire"></i>Gaz</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
   </li>
 <li class="link straight_ruler">
-  <a href="/diagnostics/mesurage-loi-boutin.html">
+  <a href="./diagnostics/mesurage-loi-boutin.html">
     <span><i class="icon-ctnr straight_ruler"></i>Mesurage loi Boutin</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
   </li>
 <li class="link drop">
-  <a href="/diagnostics/plomb.html">
+  <a href="./diagnostics/plomb.html">
     <span><i class="icon-ctnr drop"></i>Plomb</span>
     <i class="icon-ctnr arrow_right"></i>
   </a>
@@ -366,7 +366,7 @@ const successFrame = `
     <img src="/public/img/logo-v2-300.png" alt="logo inspedia">
     <h1>MERCI !</h1>
     <h2>Votre demande a bien été envoyée</h2>
-    <a href="/" class="go-home-btn">Retourner à l'accueil</a>
+    <a href="./" class="go-home-btn">Retourner à l'accueil</a>
   </div>
   `
 const errorFrame = `
@@ -374,7 +374,7 @@ const errorFrame = `
     <img src="/public/img/logo-v2-300.png" alt="logo inspedia">
     <h1>OUPS !</h1>
     <h2>Une erreur s'est produite</h2>
-    <a href="/obtenir-mon-devis.html" class="go-home-btn">Recommencer</a>
+    <a href="./obtenir-mon-devis.html" class="go-home-btn">Recommencer</a>
   </div>
   `;
 const $ = selector => {
